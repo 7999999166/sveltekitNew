@@ -162,11 +162,7 @@ export async function load() {
         }
     ],
     "DomesticCookware": [
-        {
-            "UrlName": "MSKadhai",
-            "ProductName": "MS Kadhai",
-            "Images": "./favicon.png"
-        },
+      
         {
             "UrlName": "SSDeepKadhai",
             "ProductName": "SS Deep Kadhai",

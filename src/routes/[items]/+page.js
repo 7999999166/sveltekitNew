@@ -141,11 +141,6 @@ export async function load() {
             "Images": "./favicon.png"
         },
         {
-            "UrlName": "MSKhadhai",
-            "ProductName": "MS Khadhai",
-            "Images": "./favicon.png"
-        },
-        {
             "UrlName": "Tawa",
             "ProductName": "Tawa",
             "Images": "./favicon.png"

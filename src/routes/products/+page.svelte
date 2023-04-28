@@ -14,7 +14,7 @@
         <div class="col">
             <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
                 <div class="py-4">
-                    <a href="/Dustbins.html"><h4>Dustbins</h4></a>
+                    <a href="/Dustbins"><h4>Dustbins</h4></a>
                     <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                 </div>
             </div>
@@ -22,7 +22,7 @@
         <div class="col">
             <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
                 <div class="py-4">
-                   <a href="/Containers.html"><h4>Containers</h4></a> 
+                   <a href="/Containers"><h4>Containers</h4></a> 
                     <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                 </div>
             </div>
@@ -30,33 +30,7 @@
         <div class="col">
             <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
                 <div class="py-4">
-                    <a href="/Planters.html"><h4>Planters</h4></a>
-                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-        <div class="col">
-            <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
-                <div class="py-4">
-                    <a href="/Buckets.html"><h4>Buckets</h4></a>
-                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
-                <div class="py-4">
-                    <a href="/MistFan.html"><h4>Mist Fan</h4></a>
-                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
-                <div class="py-4">
-                   <a href="/Cutlery.html"><h4>Cutlery</h4></a> 
+                    <a href="/Planters"><h4>Planters</h4></a>
                     <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                 </div>
             </div>
@@ -66,7 +40,7 @@
         <div class="col">
             <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
                 <div class="py-4">
-                   <a href="/InsulatedContainers.html"><h4>Insulated Containers </h4></a> 
+                    <a href="/Buckets"><h4>Buckets</h4></a>
                     <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                 </div>
             </div>
@@ -74,7 +48,7 @@
         <div class="col">
             <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
                 <div class="py-4">
-                    <a href="/CommercialCookware.html"><h4>Commercial Cookware</h4></a>
+                    <a href="/MistFan"><h4>Mist Fan</h4></a>
                     <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                 </div>
             </div>
@@ -82,7 +56,7 @@
         <div class="col">
             <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
                 <div class="py-4">
-                    <a href="/DomesticCookware.html"><h4>Domestic Cookware</h4></a>
+                   <a href="/Cutlery"><h4>Cutlery</h4></a> 
                     <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                 </div>
             </div>
@@ -92,7 +66,7 @@
         <div class="col">
             <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
                 <div class="py-4">
-                    <a href="/AirCooler.html"><h4>Air Coolers</h4></a>
+                   <a href="/InsulatedContainers"><h4>Insulated Containers </h4></a> 
                     <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                 </div>
             </div>
@@ -100,7 +74,7 @@
         <div class="col">
             <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
                 <div class="py-4">
-                    <a href="/WaterDispensor.html"><h4>Water Dispensor</h4></a>
+                    <a href="/CommercialCookware"><h4>Commercial Cookware</h4></a>
                     <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                 </div>
             </div>
@@ -108,7 +82,33 @@
         <div class="col">
             <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
                 <div class="py-4">
-                   <a href="/AirPurifier.html"><h4>Air Purifier</h4></a> 
+                    <a href="/DomesticCookware"><h4>Domestic Cookware</h4></a>
+                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+        <div class="col">
+            <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
+                <div class="py-4">
+                    <a href="/AirCooler"><h4>Air Coolers</h4></a>
+                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
+                <div class="py-4">
+                    <a href="/WaterDispensor"><h4>Water Dispensor</h4></a>
+                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
+                <div class="py-4">
+                   <a href="/AirPurifier"><h4>Air Purifier</h4></a> 
                     <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                 </div>
             </div>

@@ -40,7 +40,7 @@
             <div class="d-flex flex-column flex-lg-row">
                 <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" /></div>
                 <div class="py-4 py-lg-0 px-lg-4">
-                    <a href="productInfo/{item.UrlName}/.html"><h4>{item.ProductName}</h4></a>
+                    <a href="productInfo/{item.UrlName}"><h4>{item.ProductName}</h4></a>
                     <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                 </div>
             </div>

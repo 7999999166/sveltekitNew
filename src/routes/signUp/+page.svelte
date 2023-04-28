@@ -22,7 +22,7 @@
                             <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Email" /></div>
                             <div class="mb-3"><input class="form-control" type="password" name="password" placeholder="Password" /></div>
                             <div class="mb-3"><button class="btn btn-primary d-block w-100" type="submit">Sign Up</button></div>
-                            <a href="/login">Already a Memeber ?</a>
+                            <a href="/login.html">Already a Memeber ?</a>
                         </form>
                     </div>
                 </div>

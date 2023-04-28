@@ -13,12 +13,12 @@
         <div id="navcol-6" class="collapse navbar-collapse flex-grow-0 order-md-first show">
             <ul class="navbar-nav me-auto">
 				<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/products">Products</a></li>
-                <li class="nav-item"><a class="nav-link" href="/aboutUs">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="/products.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="/aboutUs.html">About Us</a></li>
             </ul>
-            <div class="d-md-none my-2"><a class="btn btn-light me-2" role="button" href="/login">Login</a><a class="btn btn-primary" role="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Cart</a></div>
+            <div class="d-md-none my-2"><a class="btn btn-light me-2" role="button" href="/login.html">Login</a><a class="btn btn-primary" role="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Cart</a></div>
         </div>
-        <div class="d-none d-md-block"><a class="btn btn-light me-2" role="button" href="/login">Login</a><a class="btn btn-primary" role="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Cart</a></div>
+        <div class="d-none d-md-block"><a class="btn btn-light me-2" role="button" href="/login.html">Login</a><a class="btn btn-primary" role="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Cart</a></div>
     </div>
 </nav>
 <div class="mimi"></div>

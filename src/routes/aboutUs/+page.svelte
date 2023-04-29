@@ -1,7 +1,6 @@
 <script>
-  
+   
 </script>
-
 
 <div>
    <h1 class="container">Akhil Stainless Steel Pvt Ltd </h1>

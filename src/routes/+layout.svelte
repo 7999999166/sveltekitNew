@@ -14,7 +14,7 @@
             <ul class="navbar-nav me-auto">
 				<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/products">Products</a></li>
-                <li class="nav-item"><a class="nav-link" href="/aboutUs/">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="/aboutUs">About Us</a></li>
             </ul>
             <div class="d-md-none my-2"><a class="btn btn-light me-2" role="button" href="/login">Login</a><a class="btn btn-primary" role="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Cart</a></div>
         </div>

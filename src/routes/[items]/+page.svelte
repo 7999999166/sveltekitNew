@@ -10,9 +10,11 @@
 
   console.log(items) ;
 
+
+
   var myCat ;
 
-  if (items == 'Dustbins'){ myCat = data.Dustbins ; }
+  if (items == 'Dustbins'){ myCat = data.Dustbins ;  console.log($page.params.items) ;}
   if (items == 'Containers'){ myCat = data.Containers ; }
    if (items == 'Planters'){ myCat = data.Planters ; }
   if (items == 'Buckets'){ myCat = data.Buckets ; }

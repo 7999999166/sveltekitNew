@@ -1,3 +1,18 @@
  {
-  "routes": [{ "src": "/[^.]+", "dest": "/[^.]+.html", "status": 200 }]
+  "redirects"
+:
+ [
+    { 
+"source"
+:
+ 
+"/*"
+,
+ 
+"destination"
+:
+ 
+"/*.html"
+ }
+]
   }

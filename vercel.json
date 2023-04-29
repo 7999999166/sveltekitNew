@@ -6,13 +6,13 @@
 "source"
 :
  
-"*"
+"/:path*"
 ,
  
 "destination"
 :
  
-"*.html"
+"/:path*.html"
  }
 ]
   }

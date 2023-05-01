@@ -34,6 +34,7 @@
 
   function dia(){ axios({
   method: 'post',
+  url: 'https://hooks.zapier.com/hooks/catch/15175459/34t7rdq/',
   data: {
           "Title": ",intura",
           "Qty":29,
@@ -56,7 +57,7 @@
         <div class="col-md-6 d-md-flex align-items-md-center">
             <div style="max-width: 350px;">
                 <h2 class="text-uppercase fw-bold">{productInfo.ProductName}</h2>
-                <p class="my-3">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue <span class="ziss">₹ {productInfo.Price}</span></p><a class="btn btn-primary btn-lg me-2" role="button" href="#" on:click={ria}>Buy Now</a>
+                <p class="my-3">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue <span class="ziss">₹ {productInfo.Price}</span></p><a class="btn btn-primary btn-lg me-2" role="button" href="#" on:click={dia}>Buy Now</a>
             </div>
         </div>
     </div>

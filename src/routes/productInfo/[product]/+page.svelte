@@ -26,9 +26,9 @@
   headers: { 'content-type': 'application/json' , 'xc-auth' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFjcm90ZWNobGxwQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6bnVsbCwibGFzdG5hbWUiOm51bGwsImlkIjoidXNfbjB6dWhkM29oMzR3eDUiLCJyb2xlcyI6Im9yZy1sZXZlbC1jcmVhdG9yLHN1cGVyIiwidG9rZW5fdmVyc2lvbiI6IjlhYTkyMGRhZGYzYjUwNmU5ZTgyZjQwZWY2MWM4ZThmZTBhMDI2OTQ5ZDE2YWZiYTM2YTg0YzM1OTlhMmNjNWY0YWFmNWNjNTgyYmRkYmZhIiwiaWF0IjoxNjgyODM4NjQ5LCJleHAiOjE2ODI4NzQ2NDl9.Znlne6zTdaxsxEtxxWtz4-EN9oOVdEyGKTpcvysNKEs'},
   url: 'https://noco-db-production-5f83.up.railway.app/api/v1/db/data/noco/kachua/products',
   data: {
-          "Title": "Zintura",
-          "Qty":19,
-          "Price":1409
+          "Title": "nintura",
+          "Qty":39,
+          "Price":1487
           }
 });}
 
@@ -57,7 +57,7 @@
         <div class="col-md-6 d-md-flex align-items-md-center">
             <div style="max-width: 350px;">
                 <h2 class="text-uppercase fw-bold">{productInfo.ProductName}</h2>
-                <p class="my-3">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue <span class="ziss">₹ {productInfo.Price}</span></p><a class="btn btn-primary btn-lg me-2" role="button" href="#" on:click={dia}>Buy Now</a>
+                <p class="my-3">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue <span class="ziss">₹ {productInfo.Price}</span></p><a class="btn btn-primary btn-lg me-2" role="button" href="#" on:click={ria}>Buy Now</a>
             </div>
         </div>
     </div>

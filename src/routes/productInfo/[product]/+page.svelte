@@ -34,6 +34,7 @@
 
   function dia(){ axios({
   method: 'post',
+  headers: {'Access-Control-Allow-Origin': '*'},
   url: 'https://hooks.zapier.com/hooks/catch/15175459/34t7rdq/',
   data: {
           "Title": ",intura",

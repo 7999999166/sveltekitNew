@@ -23,7 +23,7 @@
 
   function ria(){ axios({
   method: 'post',
-  headers: { 'content-type': 'application/json' , 'xc-auth' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFjcm90ZWNobGxwQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6bnVsbCwibGFzdG5hbWUiOm51bGwsImlkIjoidXNfbjB6dWhkM29oMzR3eDUiLCJyb2xlcyI6Im9yZy1sZXZlbC1jcmVhdG9yLHN1cGVyIiwidG9rZW5fdmVyc2lvbiI6IjlhYTkyMGRhZGYzYjUwNmU5ZTgyZjQwZWY2MWM4ZThmZTBhMDI2OTQ5ZDE2YWZiYTM2YTg0YzM1OTlhMmNjNWY0YWFmNWNjNTgyYmRkYmZhIiwiaWF0IjoxNjgyODM4NjQ5LCJleHAiOjE2ODI4NzQ2NDl9.Znlne6zTdaxsxEtxxWtz4-EN9oOVdEyGKTpcvysNKEs'},
+  headers: { 'content-type': 'application/json' , 'xc-auth' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFjcm90ZWNobGxwQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6bnVsbCwibGFzdG5hbWUiOm51bGwsImlkIjoidXNfbjB6dWhkM29oMzR3eDUiLCJyb2xlcyI6Im9yZy1sZXZlbC1jcmVhdG9yLHN1cGVyIiwidG9rZW5fdmVyc2lvbiI6IjlhYTkyMGRhZGYzYjUwNmU5ZTgyZjQwZWY2MWM4ZThmZTBhMDI2OTQ5ZDE2YWZiYTM2YTg0YzM1OTlhMmNjNWY0YWFmNWNjNTgyYmRkYmZhIiwiaWF0IjoxNjgyOTE5MjM3LCJleHAiOjE2ODI5NTUyMzd9.Ssn01hFM30kHI5slGqepcAp-_WjNy7LWBTyU46pg5Yk'},
   url: 'https://noco-db-production-5f83.up.railway.app/api/v1/db/data/noco/kachua/products',
   data: {
           "Title": "nintura",

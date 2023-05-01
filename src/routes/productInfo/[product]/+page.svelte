@@ -34,13 +34,13 @@
 
   function dia(){ axios({
   method: 'post',
-  headers: {'Access-Control-Allow-Origin': '*'},
-  url: 'https://hooks.zapier.com/hooks/catch/15175459/34t7rdq/',
+  headers:{'content-type':'application/json','access-control-allow-origin':'*'},
+  url: 'https://hooks.zapier.com/hooks/catch/15175459/34t7rdq/', 
   data: {
-          "Title": ",intura",
-          "Qty":29,
-          "Price":4409
-          }
+          "Title": "kiuytura",
+          "Qty":39,
+          "Price":1487
+          }      
   });}
 
 

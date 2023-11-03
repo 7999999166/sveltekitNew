@@ -1,5 +1,12 @@
  <script>
-	
+	import {cart}  from '../store.js';
+    import Canvas from '$lib/Canvas.svelte' ;
+
+    import {db} from '../db.js' ;
+
+    
+
+    
     </script>
     <svelte:head>
   <script src="/bootstrap.bundle.min.js"></script> 
@@ -16,9 +23,9 @@
                 <li class="nav-item"><a class="nav-link" href="/products">Products</a></li>
                 <li class="nav-item"><a class="nav-link" href="/aboutUs">About Us</a></li>
             </ul>
-            <div class="d-md-none my-2"><a class="btn btn-light me-2" role="button" href="/login">Login</a><a class="btn btn-primary" role="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Cart</a></div>
+            <div class="d-md-none my-2"><a class="btn btn-light me-2" role="button" href="/login">Login</a><a  class="btn btn-primary" role="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Cart <span class="w3-badge w3-red">{$cart}</span></a></div>
         </div>
-        <div class="d-none d-md-block"><a class="btn btn-light me-2" role="button" href="/login">Login</a><a class="btn btn-primary" role="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Cart</a></div>
+        <div class="d-none d-md-block"><a class="btn btn-light me-2" role="button" href="/login">Login</a><a  class="btn btn-primary" role="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Cart <span class="w3-badge w3-red">{$cart}</span></a></div>
     </div>
 </nav>
 <div class="mimi"></div>
@@ -47,6 +54,17 @@
     </div>
 </footer>
 
+
+
+<Canvas></Canvas>
+
+
+
+
+
+
+
+
     </div>
 
     <style>
@@ -57,5 +75,7 @@
 .jiji{
 	text-decoration: none;
 }
+
+
 
     </style>

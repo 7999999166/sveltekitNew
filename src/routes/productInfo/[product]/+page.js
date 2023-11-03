@@ -5,60 +5,6 @@ export async function load() {
      return {
     "ProductItem": [
         {
-            "UrlName": "A001",
-            "ProductName": "Air Purifier A-001",
-            "Image": "./favicon.png",
-            "Price": 2400
-        },
-        {
-            "UrlName": "A002",
-            "ProductName": "Air Purifier A-002",
-            "Image": "./favicon.png",
-            "Price": 3400
-        },
-        {
-            "UrlName": "A003",
-            "ProductName": "Air Purifier A-003",
-            "Image": "./favicon.png",
-            "Price": 2300
-        },
-        {
-            "UrlName": "W001",
-            "ProductName": "Water Dispensor W-001",
-            "Image": "./favicon.png",
-            "Price": 5400
-        },
-        {
-            "UrlName": "W002",
-            "ProductName": "Water Dispensor W-002",
-            "Image": "./favicon.png",
-            "Price": 1200
-        },
-        {
-            "UrlName": "W003",
-            "ProductName": "Water Dispensor W-003",
-            "Image": "./favicon.png",
-            "Price": 4500
-        },
-        {
-            "UrlName": "P001",
-            "ProductName": "Air Purifier P-001",
-            "Image": "./favicon.png",
-            "Price": 6500
-        },
-        {
-            "UrlName": "P002",
-            "ProductName": "Air Purifier P-002",
-            "Image": "./favicon.png",
-            "Price": 5400
-        },
-        {
-            "UrlName": "P003",
-            "ProductName": "Air Purifier P-003",
-            "Image": "./favicon.png",
-            "Price": 1900
-        },
-        {
             "UrlName": "PlainPlanter",
             "ProductName": "Plain Planter",
             "Image": "./favicon.png",
@@ -99,30 +45,6 @@ export async function load() {
             "ProductName": "Mist Fan M-003",
             "Image": "./favicon.png",
             "Price": 1200
-        },
-        {
-            "UrlName": "BabySpoon",
-            "ProductName": "Baby Spoon",
-            "Image": "./favicon.png",
-            "Price": 4500
-        },
-        {
-            "UrlName": "ServingSpoon",
-            "ProductName": "Serving Spoon",
-            "Image": "./favicon.png",
-            "Price": 6700
-        },
-        {
-            "UrlName": "CookWareSpoon",
-            "ProductName": "CookWare Spoon",
-            "Image": "./favicon.png",
-            "Price": 500
-        },
-        {
-            "UrlName": "TeaSpoon",
-            "ProductName": "Tea Spoon",
-            "Image": "./favicon.png",
-            "Price": 800
         },
         {
             "UrlName": "TeaPot",
@@ -292,12 +214,7 @@ export async function load() {
             "Image": "./favicon.png",
             "Price": 5400
         },
-        {
-            "UrlName": "MilkPot",
-            "ProductName": "MilkPot",
-            "Image": "./favicon.png",
-            "Price": 1200
-        }
+       
     ]
 }
      }

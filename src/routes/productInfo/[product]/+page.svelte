@@ -1,6 +1,10 @@
 <script>
   export let data ;
 
+  import {cart , order} from '../../../store.js' ;
+
+  import {db} from "../../../db.js" ;
+
   import {page} from '$app/stores';
 
   import axios from 'axios';
@@ -19,6 +23,11 @@
 
   console.log(productInfo);
 
+  $: $order ;
+
+
+ async function teru (){ await db.products.add({ name: productInfo.ProductName , amount: productInfo.Price , quantity: 1 })  ; $cart = 1 ; $order = await db.products.toArray(); console.log($order) ; }
+
  
 
   function ria(){ axios({
@@ -32,19 +41,13 @@
           }
 });}
 
-  function dia(){ axios({
-  method: 'post',
-  headers:{'content-type':'application/json','access-control-allow-origin':'*'},
-  url: 'https://hooks.zapier.com/hooks/catch/15175459/34t7rdq/', 
-  data: {
-          "Title": "kiuytura",
-          "Qty":39,
-          "Price":1487
-          }      
-  });}
+  
 
-
-
+  async function dia(){ fetch('https://n8n-production-6700.up.railway.app/webhook-test/20014e7b-8de5-42d7-96da-d5719631fb7c', {
+    method: "POST",
+    body: JSON.stringify({ name : 'Biggu'}),
+    
+  })}
 
 </script>
 
@@ -58,7 +61,7 @@
         <div class="col-md-6 d-md-flex align-items-md-center">
             <div style="max-width: 350px;">
                 <h2 class="text-uppercase fw-bold">{productInfo.ProductName}</h2>
-                <p class="my-3">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue <span class="ziss">₹ {productInfo.Price}</span></p><a class="btn btn-primary btn-lg me-2" role="button" href="#" on:click={ria}>Buy Now</a><a class="btn btn-primary btn-lg me-2" role="button" href="#" on:click={dia}>Zapy</a>
+                <p class="my-3">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue <span class="ziss">₹ {productInfo.Price}</span></p><a class="btn btn-primary btn-lg me-2" role="button" href="#" on:click={teru}>Buy Now</a><a class="btn btn-primary btn-lg me-2" role="button" href="#" on:click={dia}>Zapy</a>
             </div>
         </div>
     </div>
